@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/ali/mybroadcast/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/ali/mybroadcast/MainActivity.kt b/app/src/main/java/com/ali/mybroadcast/MainActivity.kt
+--- a/app/src/main/java/com/ali/mybroadcast/MainActivity.kt	
++++ b/app/src/main/java/com/ali/mybroadcast/MainActivity.kt	(date 1687420261895)
+@@ -14,7 +14,7 @@
+         setContentView(R.layout.activity_main)
+ 
+         val intFilter = IntentFilter()
+-        intFilter.addAction(Intent.ACTION_SCREEN_ON)
++        intFilter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED)
+         this.registerReceiver(br, intFilter)
+ 
+     }
